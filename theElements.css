@@ -1,0 +1,47 @@
+/* -----------Elements---------- */
+body{
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/01/Pokemon-Ash-Pikachu.jpg');
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #F0EABE;
+}
+
+img{
+    float: left;
+    border-radius: 70%;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+/* ------------------Classes----------------- */
+.navigation{
+    list-style: none;
+}
+.mypage{
+    text-align: center;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 40px;
+}
+.text{
+    border: 5px solid #F0EABE;
+    line-height: 35px;
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
